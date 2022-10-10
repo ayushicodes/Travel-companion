@@ -1,8 +1,8 @@
 import React from "react";
 
-const PlaceDetails = () => {
+const PlaceDetails = ({ place }) => {
     return (
-        <div>Helo I am PlaceDetails</div>
+        <div>{place.name}</div>
     )
 }
 export default PlaceDetails
